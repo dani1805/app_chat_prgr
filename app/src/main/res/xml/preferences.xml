@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Estilos"
+        app:icon="@drawable/ic_baseline_style_24">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="changeColor"
+            android:title="Cambiar color de las burbujas de chat" />
+        <ListPreference
+            android:defaultValue="Verde"
+            android:entries="@array/listColors"
+            android:entryValues="@array/listColorsKeys"
+            android:key="bubbleReceiver"
+            android:title="Color de burbuja de chat del receptor"
+            app:enabled="true" />
+        <ListPreference
+            android:defaultValue="false"
+            android:entries="@array/listColors"
+            android:entryValues="@array/listColorsKeys"
+            android:key="bubbleTransmitter"
+            android:title="Color de burbuja de chat del emisor"
+            app:enabled="true" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="darkMode"
+            android:title="Habilitar el modo oscuro" />
+    </PreferenceCategory>
+</PreferenceScreen>

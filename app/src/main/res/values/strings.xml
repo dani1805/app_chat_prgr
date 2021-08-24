@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ProjectChat</string>
+
+    <array name="listColors">
+
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Rojo</item>
+        <item>Amarillo</item>
+
+    </array>
+
+    <array name="listColorsKeys">
+
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Rojo</item>
+        <item>Amarillo</item>
+
+    </array>
+
+</resources>
